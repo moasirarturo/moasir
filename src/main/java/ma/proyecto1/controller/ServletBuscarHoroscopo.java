@@ -19,7 +19,7 @@ public class ServletBuscarHoroscopo extends HttpServlet {
         PrintWriter out= response.getWriter();
         String nombre=request.getParameter("nombre");
         String signo=request.getParameter("signo");
-        out.println("Bienvenido "+nombre+"a mi servlet, escogiste el signo "+signo+".");
+        out.println("Bienvenido "+nombre+" a mi servlet, escogiste el signo "+signo+".");
         
     }
 }
